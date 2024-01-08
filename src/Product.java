@@ -8,9 +8,9 @@ public class Product extends Menu{
         this.description = description;
         this.price = price;
     }
+
     void printInfo(){
-        System.out.print(name+" | ");
-        System.out.print(price + " | ");
-        System.out.println(description);
+        System.out.printf("%-10s | W %s |%s%n",name,price,description);
     }
+
 }
